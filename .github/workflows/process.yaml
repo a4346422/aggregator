@@ -41,8 +41,6 @@ env:
   # each line include domain, coupon and invitation code, the domain must be included, and the latter two items are optional
   CUSTOMIZE_LINK: ${{ secrets.CUSTOMIZE_LINK }}
 
-  # include special protocols, such as vless hysteria2 and hysteria
-  ENABLE_SPECIAL_PROTOCOLS: ${{ vars.ENABLE_SPECIAL_PROTOCOLS }}
 
 jobs:
   process:
